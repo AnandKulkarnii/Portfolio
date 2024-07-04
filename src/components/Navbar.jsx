@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Logo from "../assets/download (4).png";
+import Logo from "../../public/assets/download (4).png";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -112,7 +112,7 @@ function Navbar() {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://drive.google.com/file/d/1Edj2uRB6PqmK-VpJpobVzoY1DM45DgUf/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ixCklFG5he_ZNnETLyCFnQl_gCy_Vtqj/view?usp=sharing"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

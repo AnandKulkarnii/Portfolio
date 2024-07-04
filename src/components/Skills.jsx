@@ -3,37 +3,62 @@ function Skills() {
     {
       id: 1,
       name: "C++",
-      image: "/src/assets/c++.png",
+      image: "/assets/c++.png",
     },
     {
       id: 2,
-      name: "HTML",
-      image: "/src/assets/html.png",
+      name: "JavaScript",
+      image: "/assets/javascript.png",
     },
     {
       id: 3,
-      name: "CSS",
-      image: "/src/assets/css.png",
+      name: "HTML",
+      image: "/assets/html.png",
     },
     {
       id: 4,
-      name: "JavaScript",
-      image: "/src/assets/javascript.png",
+      name: "CSS",
+      image: "/assets/css.png",
     },
     {
       id: 5,
       name: "ReactJS",
-      image: "/src/assets/react.png",
+      image: "/assets/react.png",
     },
     {
       id: 6,
       name: "TailwindCSS",
-      image: "/src/assets/tailwind.png",
+      image: "/assets/tailwind.png",
     },
     {
       id: 7,
+      name: "NodeJS",
+      image: "/assets/node.png",
+    },
+    {
+      id: 8,
+      name: "ExpressJS",
+      image: "/assets/expressjs2.png",
+    },
+    {
+      id: 9,
+      name: "MongoDB",
+      image: "/assets/mongo.png",
+    },
+    {
+      id: 10,
+      name: "Firebase",
+      image: "/assets/firebase.png",
+    },
+    {
+      id: 11,
+      name: "Postman",
+      image: "/assets/postman2.png",
+    },
+    {
+      id: 12,
       name: "GitHub",
-      image: "/src/assets/github.png",
+      image: "/assets/github.png",
     },
   ];
 
@@ -48,7 +73,11 @@ function Skills() {
         <div className="w-full grid grid-cols-2 sm:grid-cols-4 text-center py-8 gap-4">
           {skillList.map((skill) => (
             <div key={skill.id} className="hover:scale-110 duration-500">
-              <img className="w-20 mx-auto" src={skill.image} alt="" />
+              <img
+                className="w-20 mx-auto"
+                src={skill.image}
+                alt={skill.name}
+              />
               <p className="my-4">{skill.name}</p>
             </div>
           ))}

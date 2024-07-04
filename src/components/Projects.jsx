@@ -1,6 +1,6 @@
-import ChatApp from "../assets/ChatApp.jpeg";
-import Binaco43 from "../assets/Binaco43-portfolio.jpg";
-import PackedPath from "../assets/packedPathh.png";
+import ChatApp from "../../public/assets/ChatApp.jpeg";
+import Binaco43 from "../../public/assets/Binaco43-portfolio.jpg";
+import PackedPath from "../../public/assets/packedPathh.png";
 
 function Projects() {
   const details = [
